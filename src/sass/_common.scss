@@ -1,1 +1,41 @@
 @import '~node_modules/modern-normalize/modern-normalize.css';
+
+.country-name {
+  margin: 40px;
+}
+
+.country-list,
+.country-info__list {
+  list-style: none;
+  margin: 0;
+}
+
+.country-list__item,
+.country-info__wrap {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.country-list__img,
+.country-info__img {
+  width: 30px;
+  height: 20px;
+}
+
+.country-list__text {
+  margin: 5px;
+}
+
+.country-info__param {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.country-info__wrap {
+  margin-left: 40px;
+}
+
+.country-info__header {
+  font-size: 1.5rem;
+}
