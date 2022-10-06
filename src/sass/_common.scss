@@ -6,10 +6,6 @@ body {
   align-items: center;
 }
 
-.country-info {
-  margin: 0;
-}
-
 .country-name#search-box {
   margin-top: 100px;
   width: 400px;
@@ -28,7 +24,8 @@ body {
 .country-info__wrap {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 15px;
+  margin-bottom: 10px;
   width: 400px;
 }
 
@@ -47,11 +44,11 @@ body {
   margin: 0;
 }
 
+.country-info__list {
+  font-size: 1.1rem;
+}
+
 .country-info__param {
   font-weight: bold;
   margin-right: 10px;
-}
-
-.country-info__list {
-  font-size: 1.1rem;
 }
