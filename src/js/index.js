@@ -16,8 +16,9 @@ refs.inputEl.addEventListener('input', debounce(onInputChange, DEBOUNCE_DELAY));
 function onInputChange(event) {
   const target = event.target;
   const countryName = target.value.trim();
+  clearSearchResult();
+
   if (!countryName) {
-    clearSearchResult();
     return;
   }
   showCountries(countryName);
@@ -25,7 +26,6 @@ function onInputChange(event) {
 //----------------------------------------------
 
 function showCountries(countryName) {
-  clearSearchResult();
   fetchCountries(countryName)
     .then(data => {
       if (data.length > 10) {
