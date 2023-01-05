@@ -13,7 +13,7 @@ The project demonstrates the use of back-end queries with promise syntax.
 
 ## There were used:
 
-- Ladosh library (debounce technique on the event handler of input change)
+- Lodash library (debounce technique on the event handler of input change)
 - Notiflix library
 - API Rest Countries
 
